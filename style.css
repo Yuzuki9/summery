@@ -1,0 +1,154 @@
+html{
+    background-color: black;
+    font-family: Hanken Grotesk;
+}
+
+.containor{
+    width: 500px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.left-section{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient( #7857ff ,#2e2be9 );
+    border-radius: 25px;
+
+}
+
+#ur-result{
+    font-family: Hanken Grotesk;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: aliceblue;
+    opacity: 70%;
+}
+
+.circle{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0) );
+    position: relative;
+    top: 45px;
+    border-radius: 50%;
+}
+
+#c-text{
+    position: relative;
+    color: white;
+    font-family: Hanken Grotesk;
+    font-size: 70px;
+    top: 20%;
+    text-align: center;
+}
+
+#of-100{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    font-size: larger;
+}
+
+#Great{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+}
+
+#top-bottom{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: hsl(241, 100%, 89%);
+    font-size: 17.6px;
+    font-weight: 500;
+    padding: 0px 100px 0px 100px;
+}
+
+.right-section{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    top: 100%;
+
+}
+
+ul{
+    
+    list-style-type: none;
+    padding: 5px;
+    font-size: 200%;
+
+}
+
+img{
+    padding-right: 20px;
+    
+}
+
+
+#Reaction{
+    background-color: hsla(0, 100%, 67% , 15%);
+    color: hsl(0, 100%, 67%);
+    
+    border-radius: 20px;
+}
+
+#Memory{
+    background-color: hsla(39, 100%, 56%, 15%);
+    color: hsl(39, 100%, 56%);
+    border-radius: 20px;
+}
+
+#Verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37% , 15%);
+    border-radius: 20px;
+}
+
+#Visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45% , 15%);
+    border-radius: 20px;
+}
+
+
+li{
+    margin: 30px;
+}
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    position: relative;
+    text-align: center;
+    left: 15%;
+    margin: auto;
+    width: 70%;
+    height: 60px;
+    font-size: xx-large;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-image: linear-gradient( rgb(95, 39, 247) ,hsla(241, 61%, 43%, 0.733) );
+}
+
+h2{
+    position: relative;
+    margin-left: 35px;
+    top: 20px;
+    color: #2f2db1;
+    font-weight: 900;
+}
